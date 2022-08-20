@@ -1,0 +1,47 @@
+{
+  "name": "novel-react-flow",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhannt97hy/novel-react-flow.git"
+  },
+  "author": "nhannt97",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhannt97hy/novel-react-flow/issues"
+  },
+  "homepage": "https://github.com/nhannt97hy/novel-react-flow#readme",
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.3",
+    "@mui/styles": "^5.9.3",
+    "ace-builds": "^1.9.6",
+    "immer": "^9.0.15",
+    "react-ace": "^10.1.0",
+    "react-flow-renderer": "^10.3.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.77.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ]
+}
